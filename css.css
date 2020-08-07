@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.frame {
+	width: 564px;
+	height: auto;
+	background: antiquewhite;
+	margin: 0 auto;
+}
+.khungthunhat{
+	width: 564px;
+	height: 366px;
+	background: url("img/London-Victoria_and_Albert_Museum-Sculpture_exhibition_room-01.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+.khungthunhat .header{
+	width: 564px;
+	height: 50px;
+/*	background:#FC3D40;*/
+	margin-left: 0;
+	}
+.khungthunhat .header .logo{
+	width: 100px;
+	height:33px;
+	color:	aliceblue;
+	padding-left: 68px;
+	padding-top: 17px;
+	font-size: 10px;
+	font-family: Gill Sans; 
+	float: left;
+}
+.khungthunhat .header .menu{
+	width: 216px;
+	height:50px;
+/*	background:#FFFFFF;*/
+	float:right; 
+	padding-right: 50px;
+}
+
+.menu ul{
+	list-style: none;
+	text-align: center;
+	float: left;
+}
+ul li{
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	padding-top: 20px;
+	font-size: 8px;
+	text-align: center;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-family:"eb-garamond";
+	transition-duration: 0.5s;
+	
+	
+}
+.menu ul li a:hover{
+	width: 60%;
+	transform: scale(1);
+	border:1px solid white;
+	
+}
+.banner {
+	width: 444px;
+	height: 261px;
+/*	background: #B31518;*/
+	margin: 0 auto;
+	padding-top: 56px;
+}
+.banner .textbox {
+	width: 444px;
+	height: 154px;
+/*	background:#558CE2;*/
+	margin: 0 auto;	
+	
+}
+.textbox .textleft {
+	width: 222px;
+	height: 154px;
+/*	background: #D30003;*/
+	float:left;;
+	
+}
+p{
+	margin-top:5px;
+	font-family: Palatino;
+	color: white;
+	font-size: 10px;
+	float:left;
+}
+h1 {
+	margin-top: 10px;
+	font-family: Palatino;
+	color: aliceblue;
+	float:left;
+}
+button{
+	width: 100px;
+	height: 30px;
+	
+	background: none;
+	border:1px solid #E57C34;
+	color: #E57C34;
+	cursor: pointer;
+	margin-top: 26px;
+	transition-duration: 0.2s;
+	opacity:1;
+}
+button:hover{
+	width: 70%;
+	transform: scale(1);
+	border:1px solid #E57C34;
+}
+
+.textbox .right1{
+	width: 222px;
+	height: 154px;
+	background:#25EBD5;
+	float: right;
+	background: url("img/hinh1`.jpg");
+	background-size: cover;
+	background-position: center;
+	transition-duration: 1s;
+	
+}
+.textbox .right1:hover{
+	width: 50%;
+	transform: scale(1.125);
+	
+}
+
+/*xong phần header banner*/
+	
+.khungthuhai{
+	width:564px;
+	height: 335px;
+	background:#22201E;
+	float:left;
+	padding-top: 81px;
+}
+.body{
+	width: 431px;
+	height: 289px;
+/*	background: #5AA3DC;*/
+	margin: 0 auto;
+}
+.bodyleft{
+	width: 195px;
+	height: 289px;
+/*	background: #FE7D7F;*/
+	margin-left: 15px;
+	float: left;
+	
+}
+.bodyright{
+	width: 195px;
+	height: 289px;
+/*	background: #FE7D7F;*/
+	margin-left: 10px;
+	float:left;
+	
+}
+ .imgbodyl{
+	width: 100%;
+	height: 128px; 
+	background: url("img/Screen Shot 2020-08-06 at 9.06.50 PM.png");
+	background-size: cover;
+	background-position: center;
+	transition-duration: 1s;
+}
+.imgbodyl:hover{
+	width: 100%;
+	transform: scale(1.15);
+}
+.imgbodyr{
+	width: 100%;
+	height: 128px;
+/*	background:#C293E6; */
+	background: url("img/hinh 5.jpg");
+	background-size: cover;
+	background-position: center;
+	transition-duration: 1s;
+		
+}
+.imgbodyr:hover{
+	width: 100%;
+	transform: scale(1.15);
+}
+.textboxbody{
+	text-align: center;
+}
+h4 {
+	font-size: 10px;
+	margin-top: 10px;
+	color:white;
+	font-family: "Gill Sans";
+}
+h2{
+	color: white;
+	font-size: 20px;
+	font-family:  Palatino;
+}
+/*xong phần body*/
+
+.footer {
+	width: 564px;
+	height: 266px;
+	background: #22201E;
+	padding-top: 48px;
+}
+.framefooter{
+	width: 416px;
+	height: 213px;
+	background:#444243;
+	margin: 0 auto;
+	background: url("img/Untitled-1.gif");
+	background-size: cover;
+	opacity: 0.6;
+	padding-top: 25px;
+	padding-left: 25px;
+	
+}
+.textfooter{
+	width: 180px;
+	height: 190px;
+/*	background:#DE2124;*/
+}
+h5{
+	color:#E57C34;
+	margin-top:30px;
+	
+}
+.footnote{
+	width: 100%;
+	height: 20px;
+	background: #22201E;
+	text-align: center;
+	color: white;
+	font-size:8px;
+	font-family: Gotham;
+}
+
+
+	
+
+
+
+
+
